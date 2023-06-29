@@ -60,6 +60,7 @@ h3:hover {
 .icon {
   font-size: 30px;
 }
+
 .second_navbar {
   width: 100%;
   height: 40px;
@@ -298,13 +299,16 @@ h1 {
 .categories {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 115px;
   margin-top: 50px;
+  border-radius: 200px;
+
 }
 .round_image {
-  height: 200px;
-  width: 200px;
-  border-radius: 200px;
+  height: 150px;
+  width: 150px;
+  
+  transition: linear;
 }
 
 .words {
@@ -312,9 +316,8 @@ h1 {
   justify-content: center;
   gap: 100px;
   margin-top: 40px;
-  text-align: center;
+  align-items: center;
 }
-
 .h3_right {
   margin-left: 2%;
 }
@@ -391,7 +394,7 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.507) 0px 54px 55px, rgb(0, 0, 0) 0px -12px 30px,
     rgba(0, 0, 0, 0.614) 0px 4px 6px, rgba(0, 0, 0, 0.596) 0px 12px 13px,
     rgba(3, 3, 3, 0.575) 0px -3px 5px;
-    width: 82px;
+  width: 82px;
   height: 82px;
 }
 .chats_1 {
@@ -425,6 +428,7 @@ h1 {
 .active {
   font-size: 10px;
   color: #00ff40;
+  margin-left: -10px;
 }
 
 .chats_popups {
@@ -461,6 +465,8 @@ h1 {
   border: 2px solid #018749;
   padding: 10px 10px;
   border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .auto_reply_1:hover {
@@ -487,4 +493,141 @@ h1 {
   margin-right: 10px;
   margin-top: 10px;
   color: #363837;
+}
+
+.the_bush {
+  height: 100px;
+  width: 100px;
+  margin-left: 20%;
+}
+
+/* Offers page */
+.offer_bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.sale_page {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+}
+.big_circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  position: relative;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0a99ec 0%, #1681c4 100%);
+  padding: 2.6%;
+}
+
+.sale {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background-color: #ee48bf;
+  background-image: linear-gradient(0deg, #f62ed1 0%, #0a70b5 100%);
+
+  padding-top: 150px;
+}
+
+.sales_h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.sales_h11 {
+  font-size: 50px;
+  text-align: center;
+  color: yellow;
+}
+.sales_p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Blog page */
+
+.blog_page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog_left {
+  height: 100vh;
+  width: 40%;
+}
+
+.blog_right {
+  width: 60%;
+  height: 100vh;
+}
+
+.blog_h1 {
+  background-color: #047843;
+  color: white;
+  width: 100%;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.blog_para {
+  margin-top: 40px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.blog_right_img {
+  width: 60%;
+  height: 40%;
+  margin-top: 30px;
+}
+
+.blog_h1_h1 {
+  background-color: #fc480c;
+  color: rgb(255, 255, 255);
+  width: 30%;
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* signup and earn coins page */
+.coins_page {
+  background-image: url("../public/Image/bg10.jpg");
+  height: 100vh;
+  width: 100%;
+}
+
+.coins_page h1 {
+  color: rgb(255, 255, 5);
+  padding-top: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.coins_page p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(28, 224, 2);
+  width: 40%;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
 }

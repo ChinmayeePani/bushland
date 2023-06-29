@@ -27,6 +27,14 @@ const Home = () => {
     navigate("/explore");
   };
 
+  const loginofferHandler = () =>{
+    navigate("/offers");
+  };
+
+  const loginblogHandler = () =>{
+    navigate("/blog");
+  };
+
   return (
     <div>
       <div className="navbar">
@@ -37,8 +45,8 @@ const Home = () => {
           <h3 onClick={() => setPots(!pots)}>POTS & PLANTERS</h3>
           <h3 onClick={() => setPlants(!plants)}>PLANTS CARE</h3>
           <h3 onClick={() => setGifts(!gifts)}>GIFTING</h3>
-          <h3>BLOG</h3>
-          <h3>OFFERS</h3>
+          <h3 onClick={loginblogHandler}>BLOG</h3>
+          <h3 onClick={loginofferHandler}>OFFERS</h3>
         </div>
 
         <button className="search_box">

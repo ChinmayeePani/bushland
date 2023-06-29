@@ -10,18 +10,18 @@ function Cart() {
         <h2 className='h2_explore'>Explore Category</h2>
         <div>
             <div className='categories'>
-                <img src='./Image/indoor.jpg' className='round_image'/>
-                <img src='./Image/outdoor.jpg' className='round_image'/>
+                <img src='./Image/sandcastle.png' className='round_image'/>
+                <img src='./Image/sun.png' className='round_image'/>
             </div>
 
             <div className='words'>
-                <h3>Indoor Plants</h3>
+                <h3 >Indoor Plants</h3>
                 <h3 className='h3_right'>Outdoor Plants</h3>
             </div>
 
             <div className='categories'>
-                <img src='./Image/zuri.jpg' className='round_image'/>
-                <img src='./Image/ceramic.jpg' className='round_image'/>
+                <img src='./Image/forest.png' className='round_image'/>
+                <img src='./Image/pot.png' className='round_image'/>
             </div>
 
             <div className='words'>
